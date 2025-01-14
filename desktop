@@ -1,0 +1,4 @@
+FROM ghcr.io/saturn-core/stable
+
+RUN apt-get update && apt-get dist-upgrade -y && rm -rf /var/lib/apt/lists/* /var/log/{alternatives.log,apt/history.log,apt/term.log,dpkg.log}
+RUN apt-get update && apt-get install -y ubuntu-desktop-minimal && rm -rf /var/lib/apt/lists/* /var/log/{alternatives.log,apt/history.log,apt/term.log,dpkg.log}
