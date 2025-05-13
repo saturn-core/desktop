@@ -1,0 +1,45 @@
+snaps:
+  -
+    name: core22
+    channel: stable
+    file: core22_1908.snap
+  -
+    name: snapd
+    channel: stable
+    file: snapd_23771.snap
+  -
+    name: desktop-security-center
+    channel: 1/stable/ubuntu-25.04
+    file: desktop-security-center_59.snap
+  -
+    name: firefox
+    channel: stable/ubuntu-25.04
+    file: firefox_6042.snap
+  -
+    name: firmware-updater
+    channel: 1/stable/ubuntu-25.04
+    file: firmware-updater_167.snap
+  -
+    name: gnome-42-2204
+    channel: stable/ubuntu-25.04
+    file: gnome-42-2204_202.snap
+  -
+    name: bare
+    channel: stable
+    file: bare_5.snap
+  -
+    name: gtk-common-themes
+    channel: stable/ubuntu-25.04
+    file: gtk-common-themes_1535.snap
+  -
+    name: prompting-client
+    channel: 1/stable/ubuntu-25.04
+    file: prompting-client_104.snap
+  -
+    name: snap-store
+    channel: 2/stable/ubuntu-25.04
+    file: snap-store_1270.snap
+  -
+    name: snapd-desktop-integration
+    channel: stable/ubuntu-25.04
+    file: snapd-desktop-integration_253.snap
